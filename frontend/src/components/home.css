@@ -1,0 +1,85 @@
+.homepage {
+    width: 80%;
+    margin: 100px auto;
+}
+.searchtable {
+    border: 1px solid black;
+    border-bottom: none;
+    margin-top: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
+.cdt {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+.iconin {
+    width: 70%;
+}
+.iconin > div {
+    width: 50%;
+    background-color: lightgray;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.iconin > div > input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    margin-left: 5px;
+}
+#table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#table > thead > tr {
+    background-color: bisque;
+}
+td, th {
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+tbody {
+    text-align: center;
+}
+.symbol {
+    width: 50%;
+    height: 25px;
+    background-color: lightgrey;
+    margin: auto;
+    border-radius: 10px;
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn {
+    border: none;
+    background-color: rgb(32, 172, 227);
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.viewBtn {
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}

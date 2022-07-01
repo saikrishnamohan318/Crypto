@@ -1,0 +1,33 @@
+.viewpage {
+    width: 80%;
+   margin: 100px auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.tr {
+    border-bottom:"1px solid black";
+    padding: 20px;
+}
+.btn1 {
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.symbol1 {
+    width: 50%;
+    height: 25px;
+    background-color: lightgrey;
+    margin: auto;
+    border-radius: 10px;
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

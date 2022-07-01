@@ -1,0 +1,28 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+.nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.atag {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
+.pimg {
+    display: flex;
+    justify-content: space-evenly;
+}
+.a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.a:hover {
+    color: gray;
+}
